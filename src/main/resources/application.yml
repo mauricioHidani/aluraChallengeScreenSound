@@ -1,0 +1,12 @@
+application:
+  title: 'Challenge Screen Sound - ALURA ONE G7'
+  version: '1.0.0-SNAPSHOT'
+  since: 'Thursday, 29th October 2024'
+
+spring:
+  profiles:
+    active: prod # 'test'
+
+openai:
+  config:
+    apiKey: ${ OPENAI_API_KEY }
